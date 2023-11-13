@@ -36,6 +36,10 @@ namespace Arcade
             pongWindow.Show();
         }
 
-
+        private void PlaySnake_Click(object sender, RoutedEventArgs e)
+        {
+            var snakeWindow = new Snake.SnakeWindow(); 
+            snakeWindow.Show();
+        }
     }
 }

@@ -1,3 +1,6 @@
 [submodule "Pong"]
 	path = Pong
 	url = https://github.com/JozsefKiss90/Pong
+[submodule "Snake"]
+	path = Snake
+	url = https://github.com/JozsefKiss90/Snake

@@ -11,6 +11,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\..\Pong\Pong\Pong.csproj" />
+      <ProjectReference Include="..\..\Snake\Snake\Snake\Snake.csproj" />
     </ItemGroup>
 
 </Project>

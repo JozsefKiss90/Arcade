@@ -42,12 +42,16 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
-        <Button Content="Start Unity Game" Click="btnLaunchUnityGame_Click" 
+        <Button Content="Play Tetris" Click="btnLaunchUnityGame_Click" 
                 Style="{StaticResource ArcadeButtonStyle}" 
                 Grid.Row="1"/>
 
         <Button Content="Play Pong" Click="PlayPong_Click" 
                 Style="{StaticResource ArcadeButtonStyle}" 
                 Grid.Row="2"/>
+        
+        <Button Content="Play Snake" Click="PlaySnake_Click" 
+                Style="{StaticResource ArcadeButtonStyle}" 
+                Grid.Row="3"/>
     </Grid>
 </Window>
