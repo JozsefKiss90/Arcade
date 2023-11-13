@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Arcade/1.0.0": {
+        "dependencies": {
+          "Pong": "1.0.0"
+        },
+        "runtime": {
+          "Arcade.dll": {}
+        }
+      },
+      "Pong/1.0.0": {
+        "runtime": {
+          "Pong.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Arcade/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Pong/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
